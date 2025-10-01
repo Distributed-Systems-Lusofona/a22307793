@@ -12,6 +12,9 @@ public class HelloController {
     // Basic endpoint
     @GetMapping("/hello")
     public String hello() {
+
         return "Hello, Spring Boot with Java 23! 🚀";
+
     }
 }
+
